@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * Code discription here
+ * main - Entry point
+ *
+ * Return : Always 0 (sucess)
  *
  * */
 

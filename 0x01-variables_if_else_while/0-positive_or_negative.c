@@ -5,7 +5,9 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - Return 0 (Success)
+ * main -Entry point
+ *
+ * Return - Always 0  (success)
  *dsdsds
  */
 int main(void)

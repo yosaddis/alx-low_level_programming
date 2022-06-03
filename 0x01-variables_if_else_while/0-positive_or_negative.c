@@ -5,10 +5,10 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - return 0 (Success)
+ * main - Return 0 (Success)
  *dsdsds
  */
-int main (void)
+int main(void)
 {
 	int n;
 
@@ -18,7 +18,7 @@ int main (void)
 	{
 		printf("%d is negative\n", n);
 	}
-	else if(n > 0)
+	else if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	}

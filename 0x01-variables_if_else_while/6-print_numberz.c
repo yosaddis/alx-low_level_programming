@@ -13,12 +13,10 @@
 int main(void)
 {
 	int i = 0;
-	int num[10] = {,1,2,3,4,5,6,7,8,9};
 
-	for (i = 49; i < 60; i++)
+	for (i = 48; i < 58; i++)
 	{
-		c = i;
-		putchar(c);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);

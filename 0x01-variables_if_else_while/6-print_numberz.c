@@ -13,7 +13,8 @@
 int main(void)
 {
 	int i = 0;
-	char c;
+	int num[10] = {,1,2,3,4,5,6,7,8,9};
+
 	for (i = 49; i < 60; i++)
 	{
 		c = i;

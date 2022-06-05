@@ -16,7 +16,7 @@ int main(void)
 	int j = 48;
 	int k = 48;
 	int l = 48;
-	int pair_01,pair_02;
+	int pair_01, pair_02;
 
 	for (i = 48; i < 58; i++)
 	{
@@ -27,7 +27,7 @@ int main(void)
 				for (l = 48; l < 58; l++)
 				{
 					pair_01 = (i * 10) + j;
-					pair_02 = (k * 10) + l;		
+					pair_02 = (k * 10) + l;
 					if (pair_01 < pair_02)
 					{
 						putchar(i);

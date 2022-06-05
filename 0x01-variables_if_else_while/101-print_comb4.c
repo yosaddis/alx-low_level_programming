@@ -12,9 +12,9 @@
  */
 int main(void)
 {
-	int i = 0;
-	int j = 0;
-	int k = 0;
+	int i = 48;
+	int j = 48;
+	int k = 48;
 
 	for (i = 48; i < 58; i++)
 	{

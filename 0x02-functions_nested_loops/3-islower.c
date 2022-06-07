@@ -6,7 +6,7 @@
  * Return: 0 (success)
  *
  */
-int islower(int c)
+int _islower(int c)
 {
 	if (islower(c)==1)
 		return(1);

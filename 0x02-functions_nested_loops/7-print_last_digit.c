@@ -10,5 +10,5 @@
 
 int print_last_digit(int n)
 {
-	return (((abs(n)) % 10)+48);
+	return ((n % 10)+48);
 }

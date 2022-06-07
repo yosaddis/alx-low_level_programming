@@ -2,8 +2,8 @@
 #include "main.h"
 #include<ctype.h>
 /**
- * islower - checks if letter is lower case
- *
+ * _islower - checks if letter is lower case
+ * c - charachter 
  * Return: 0 (success)
  *
  */

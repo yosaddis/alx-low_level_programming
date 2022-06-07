@@ -19,7 +19,7 @@ void times_table(void)
 			product = i * j;
 			_putchar(44);
 			_putchar(32);
-			if(product <= 9)
+			if (product <= 9)
 			{
 				_putchar(32);
 				_putchar(product + 48);

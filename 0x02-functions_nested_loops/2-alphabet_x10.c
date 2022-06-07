@@ -1,12 +1,11 @@
 #include<stdio.h>
+#include "main.h"
 /**
- * main - Entry Point
+ * print_alphabet_x10 - prints alphabet list 10 times
  *
- * Return - 0 (success)
+ * Return: 0 (success)
  *
  * */
-
-void print_alphabet_x10(void);
 
 void print_alphabet_x10(void)
 {
@@ -17,15 +16,8 @@ void print_alphabet_x10(void)
 	{	
 		for (i = 97; i < 122; i++)
 		{
-			putchar(i);
+			_putchar(i);
 		}
-	
-	putchar('\n');
+		putchar('\n');
 	}
-}
-
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
 }

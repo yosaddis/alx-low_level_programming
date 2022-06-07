@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include "main.h"
-#include<ctype.h>
+#include<stdlib.h>
 /**
  * _abs - shows the abosloute value
  * Return: 0 (success)

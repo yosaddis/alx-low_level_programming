@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_numbers - prints digits
  * Return: 1 on success

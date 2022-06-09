@@ -1,5 +1,18 @@
 #ifndef MAIN_H
 #define MAIN_H
+/**
+ * @file main.h
+ * @author your name (you@domain.com)
+ * @brief
+ * @version 0.1
+ * @date 2022-06-09
+ *
+ * @copyright Copyright (c) 2022
+ * positive_or_negative - tells the sign of the number
+ * largest_number - tells the largest number
+ * print_remaining_days - tells the remaining days to the leap year on the given date
+ *
+ */
 
 #include <stdio.h>
 
@@ -7,7 +20,7 @@ void positive_or_negative(int i);
 int largest_number(int, int, int);
 void print_remaining_days(int month, int day, int year);
 
-int main(void)
+int positive_or_negative(void)
 {
 	int n;
 

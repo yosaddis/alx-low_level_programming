@@ -1,19 +1,27 @@
 #include "main.h"
 /**
- * print_more_numbers - prints digits except 0 and 14
+ * more_numbers - prints digits except 0 and 14
  * Return: void
  */
 
-void print_most_numbers(void)
+void more_numbers(void)
 {
 	char i;
 	int j;
 
-	for (i = '0'; i <= '9'; i++)
+	for (j = 0; j <= 14; j++)
 	{
-		if (i != '2' && i != '4')
+		if (j == 10)
+			i = '0';
+		for (i = '0'; i <= '9'; i++)
+		{
+			if (j > 9)
+			{
+				_putchar('1');
+			}
 			_putchar(i);
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
 

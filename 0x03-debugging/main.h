@@ -4,10 +4,14 @@
 #include <stdio.h>
 
 /**
- * positive_or_negative - + or - or 0
- * Return: 0
+ * largest_number - returns largest number
+ * Return: largest number of the three
+ * @a: given number
+ * @b: given number
+ * @c: given numebr
  */
-int positive_or_negative(int a, int b, int c)
+
+int largest_number(int a, int b, int c)
 {
 	int largest;
 
@@ -38,33 +42,7 @@ int positive_or_negative(int a, int b, int c)
 
 	return (largest);
 }
-/**
- * largest_number - return larrgest number
- * Return:largest number
- * @a: given number a
- * @b: given number b
- * @c: given number c
- */
 
-int largest_number(int a, int b, int c)
-{
-	int largest;
-
-	if (a > b && a > c)
-	{
-		largest = a;
-	}
-	else if (b > a && b > c)
-	{
-		largest = b;
-	}
-	else
-	{
-		largest = c;
-	}
-
-	return (largest);
-}
 /**
  * print_remaining_days - prints remaining days
  * Return :void

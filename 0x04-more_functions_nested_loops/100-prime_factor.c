@@ -10,7 +10,7 @@ int main(void)
 	long int num = 612852475143;
 	int prime_factor;
 
-	for ( prime_factor = 2; prime_factor <= num; prime_factor++)
+	for (prime_factor = 2; prime_factor <= num; prime_factor++)
 	{
 		if (num % prime_factor == 0)
 		{
@@ -18,6 +18,6 @@ int main(void)
 			prime_factor--;
 		}
 	}
-	printf("%d\n",prime_factor);
+	printf("%d\n", prime_factor);
 	return (0);
 }

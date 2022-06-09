@@ -12,23 +12,22 @@ void print_remaining_days(int month, int day, int year);
  */
 int positive_or_negative(void)
 {
-	int n;
+	int largest;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n < 0)
+	if(a > b && b > c)
 	{
-		printf("%d is negative\n", n);
+		largest = a;
 	}
-	else if (n > 0)
+	else if (b >a && a > c)
 	{
-		printf("%d is positive\n", n);
+		largest = b;
 	}
-	else
+	else 
 	{
-		printf("%d is zero\n", n);
+		largest = c;
 	}
-	return (0);
+
+	return (largest);
 }
 /**
  * largest_number - return larrgest number

@@ -13,6 +13,6 @@ int main(void)
 	//printf("%s\n", str);
 	//rev_string(str);
 	//printf("%s\n",str);
-	puts2(str);
+	puts_half(str);
 	return (0);
 }

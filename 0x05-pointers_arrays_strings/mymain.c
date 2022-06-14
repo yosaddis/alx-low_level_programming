@@ -10,8 +10,9 @@ int main(void)
 	//str = "";
 	//	len = _strlen(str);
 //	_puts(str);
-	printf("%s\n", str);
-	rev_string(str);
-	printf("%s\n",str);
+	//printf("%s\n", str);
+	//rev_string(str);
+	//printf("%s\n",str);
+	puts2(str);
 	return (0);
 }

@@ -12,7 +12,7 @@ void puts_half(char *str)
 	int i;
 	int n;
 
-	if (n % 2 == 0)
+	if (count % 2 == 0)
 		n = count / 2;
 	else
 		n = (count - 1) / 2;

@@ -7,7 +7,8 @@ int main(void)
 	int len;
 
 	str = "My first strlen!";
-//	len = _strlen(str);
+	str = "";
+	//	len = _strlen(str);
 //	_puts(str);
 //	printf("%d\n", len);
 	print_rev(str);

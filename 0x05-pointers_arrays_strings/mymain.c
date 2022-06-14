@@ -7,10 +7,11 @@ int main(void)
 	int len;
 
 	str = "My first strlen!";
-	str = "";
+	//str = "";
 	//	len = _strlen(str);
 //	_puts(str);
-//	printf("%d\n", len);
-	print_rev(str);
+	printf("%s\n", str);
+	rev_string(str);
+	printf("%s\n",str);
 	return (0);
 }

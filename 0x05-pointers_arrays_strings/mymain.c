@@ -3,12 +3,11 @@
 
 int main(void)
 {
-	char s1[98];
-	char *ptr;
+	int nb;
 
-	ptr = _strcpy(s1, "First, solve the proble . Then, write the code \n");
-	printf("%s\n", s1);
-	printf("%s copied \n", ptr);
-
+	nb = _atoi("98");
+	printf("%d\n", nb);
+	nb = _atoi("-402");
+	printf("%d\n",nb);
 	return (0);
 }

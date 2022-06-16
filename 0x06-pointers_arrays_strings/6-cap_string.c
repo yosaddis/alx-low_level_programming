@@ -1,14 +1,28 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strncpy -copies n strings
+ * cap_string -captilises string in a word
  * Return: void
- * @dest: pointer to destination string
- * @src: pointer to source string
- * @n:no of bytes to concatenates
+ * @string: pointer to a string
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *cap_string(char *string)
 {
-	return (strncpy(dest, src, n));
+	int i;
+	int x = strlen(string);
+	for (i = 1; i < x; i++)
+	{
+		if (isalpha(string[i]) &&
+			(string[i - 1] == ' ') ||
+			(string[i - 1] == ',') ||
+			(string[i - 1] == ';') || (string[i - 1] == '.') ||
+			(string[i - 1] == '!') || (string[i - 1] == '?') ||
+			(string[i - 1] == '"') || (string[i - 1] == '(') ||
+			(string[i - 1] == ')') || (string[i - 1] == '}') ||
+			(string[i - 1] == '}') || (string[i - 1] == '\t') || (string[i - 1] == '\n'))
+		{
+			// only first letters of a word.
+			string[i] = toupper(string[i]);
+		}
+	}
 }

@@ -22,10 +22,10 @@ int main(void)
 //	print_array(a1, 5);
 //	reverse_array(a1, sizeof(a1)/sizeof(int));
 //	print_array(a1, sizeof(a1)/ sizeof(int));
-	char str[] ="Look up!";
+	char str[] ="Look}up!i.was{here";
 	char *ptr;
 
-	ptr = string_toupper(str);
+	ptr = cap_string(str);
 	printf("%s\n", ptr);
 
 	return (0);

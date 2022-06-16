@@ -16,13 +16,13 @@ char *cap_string(char *string)
 	for (i = 1; i < x; i++)
 	{
 		if (isalpha(string[i]) &&
-			(string[i - 1] == ' ') || (string[i - 1] == ',') ||
+			((string[i - 1] == ' ') || (string[i - 1] == ',') ||
 			(string[i - 1] == ';') || (string[i - 1] == '.') ||
 			(string[i - 1] == '!') || (string[i - 1] == '?') ||
 			(string[i - 1] == '"') || (string[i - 1] == '(') ||
 			(string[i - 1] == ')') || (string[i - 1] == '}') ||
 			(string[i - 1] == '{') || (string[i - 1] == '\t') ||
-			(string[i - 1] == '\n'))
+			(string[i - 1] == '\n')))
 		{
 			string[i] = toupper(string[i]);
 		}

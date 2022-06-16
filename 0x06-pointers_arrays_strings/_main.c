@@ -18,11 +18,11 @@ void print_array(int *a, int n)
 
 int main(void)
 {
-	char str[] ="Look}up!i.was{here";
-	char *ptr;
+	char s[] = "Expect the best. Prepare for thr worst. Capitalize on what comes.\n";
+	char *p;
 
-	ptr = cap_string(str);
-	printf("%s\n", ptr);
-
+	p= leet(s);
+	printf("%s",s);
+	printf("%s", p);
 	return (0);
 }

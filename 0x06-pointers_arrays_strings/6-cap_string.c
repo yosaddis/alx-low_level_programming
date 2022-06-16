@@ -12,7 +12,7 @@ char *cap_string(char *string)
 {
 	int i;
 	int x = strlen(string);
-	
+
 	for (i = 1; i < x; i++)
 	{
 		string[0] = toupper(string[0]);

@@ -1,11 +1,26 @@
 #include "main.h"
+#include <stdio.h>
+
+void print_array(int *a, int n)
+{
+	int i;
+
+	i=0;
+	while (i < n)
+	{
+		if (i != 0)
+			printf(", ");
+	printf("%d", a[i]);
+	i++;
+	}
+	printf("\n");
+}
 
 int main(void)
 {
-	char s1[98] = "Hello ";
-	char s2[] = "World!\n";
-	char *ptr;
-	ptr = _strcat(s1,s2);
-	printf("%s\n", ptr);
+	int a1[] ={0, 1, 3, 4, 5};
+	print_array(a1, 5);
+	reverse_array(a1, sizeof(a1)/sizeof(int));
+	print_array(a1, sizeof(a1)/ sizeof(int));
 	return (0);
 }

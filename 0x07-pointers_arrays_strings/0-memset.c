@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * _memset - fills the memory with given byte
  * Return: pointer to the memory area

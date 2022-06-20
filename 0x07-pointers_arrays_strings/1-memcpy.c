@@ -8,14 +8,15 @@
  * @n: size to copy to
  */
 
-char *_memcpy(char *dest, char *src, usigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	char *pszDest = (char *) dst;
+	char *pszDest = (char *) dest;
 	const char *pszSource = (const char *)src;
 
 	if ((pszDest != NULL) && (pszSource != NULL))
 	{
 		*(pszDest++) = *(pszSource++);
-			--cnt;
+			--n;
+	}
 	return (dest);
 }

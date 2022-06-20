@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include<string.h>
 /**
  * _memcpy- copies the content of a memory
  * Return: dest
@@ -10,13 +10,5 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	char *pszDest = (char *) dest;
-	const char *pszSource = (char *)src;
-
-	if ((pszDest != NULL) && (pszSource != NULL))
-	{
-		*(pszDest++) = *(pszSource++);
-			--n;
-	}
-	return (dest);
+	return (memcpy(dest, src, n));
 }

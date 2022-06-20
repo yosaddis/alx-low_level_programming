@@ -11,7 +11,7 @@
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	char *pszDest = (char *) dest;
-	const char *pszSource = (const char *)src;
+	const char *pszSource = (char *)src;
 
 	if ((pszDest != NULL) && (pszSource != NULL))
 	{

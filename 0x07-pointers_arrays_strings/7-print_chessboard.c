@@ -18,6 +18,6 @@ void print_chessboard(char (*a)[8])
 			putchar(a[i][j]);
 		}
 		if (i != 7)
-			printf("\n");
+			putchar("\n");
 	}
 }

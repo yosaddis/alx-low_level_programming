@@ -30,11 +30,18 @@ void main(void)
 	
 	simple_print_buffer(buffer,98);
 	_memcpy(buffer +50, buffer2,10);
-	*/
+	
 	char buffer[98] = {0x00};
 	simple_print_buffer(buffer ,98);
 	_memset(buffer, 0x01,95);
 
 	printf("-------------------------------------------------------\n");
 	simple_print_buffer(buffer,98);
+	*/
+	int c3[3][3] ={ 
+		{ 0, 1, 5, },
+		{10,11,12},
+		{1000,101,102},
+	};
+	print_diagsums((int *)c3, 3);
 }

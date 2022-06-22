@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _pow_recursion - power function
- * Retrun: the power value of x^y
+ * _pow_recursion - power calculation
+ * Return: the power value of x^y
  * @x: base number
  * @y: super script number
  */

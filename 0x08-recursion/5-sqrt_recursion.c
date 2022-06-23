@@ -21,7 +21,7 @@ int _sqrt_recursion(int n)
  * power_operation - returns square root of a number
  * @n: input number
  * @c: iterator
- * Retrun: square root or -1
+ * Return: square root or -1
  */
 int power_operation(int n, int c)
 {

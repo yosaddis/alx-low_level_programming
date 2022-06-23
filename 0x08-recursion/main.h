@@ -13,5 +13,6 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int power_operation(int n, int c);
 int is_prime(int n, int c);
+int is_palindrome(char *s);
 
 #endif /* MAIN_H */

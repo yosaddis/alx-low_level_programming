@@ -9,6 +9,8 @@ void main(void)
 //	printf("%d\n",factorial(1));
 //	printf("%d\n",_pow_recursion(1,10));
 //	printf("%d\n",_pow_recursion(5,-2));
-	printf("%d\n",is_prime_number(17));
-	printf("%d\n",is_prime_number(1024));
+//	printf("%d\n",is_prime_number(17));
+//	printf("%d\n",is_prime_number(1024));
+	printf("%d\n",is_palindrome("geeg"));
+	printf("%d\n",is_palindrome("ABED"));
 }

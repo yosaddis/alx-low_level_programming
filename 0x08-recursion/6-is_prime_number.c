@@ -1,7 +1,7 @@
 #include"main.h"
 /**
  * is_prime_number - checks if the number is prime number or not
- * Return: 0 if its not 1 if it is
+ * Return: (0) if its not (1) if it is
  * @n: given number
  */
 int is_prime_number(int n)
@@ -18,7 +18,7 @@ int is_prime_number(int n)
  * is_prime - detects if an input number is a prime number.
  * @n: given no
  * @c: iterator
- * Retrun: 1 if n is a prime number. 0 if n is not prime
+ * Return: (1) if n is a prime number. (0) if n is not prime
  */
 int is_prime(int n, int c)
 {

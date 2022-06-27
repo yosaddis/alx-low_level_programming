@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		for (i = 1; i < argc; i++)
 		{
 			num = *argv[i];
-			if (num >= 48 && num <= 57)
+			if (isdigit(atoi(argv[i])))
 				sum += atoi(argv[i]);
 			else
 			{

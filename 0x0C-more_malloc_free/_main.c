@@ -5,6 +5,7 @@
 
 int  main(void)
 {
+/**
 	char *c;
 	int *i;
 	float *f;
@@ -22,6 +23,10 @@ int  main(void)
 	free(c);
 	free(i);
 	free(d);
-
+*/
+	char *concat;
+	concat = string_nconcat("Best ","School !!!", 6);
+	printf("%s\n",concat);	
+	free(concat);
 	return(0);
 }

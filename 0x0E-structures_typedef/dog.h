@@ -9,14 +9,13 @@
  *
  * Description: efinition for the structure of the dog
  */
-typedef struct dog dog_t;
 
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} dog_t;
 
 #include "main.h"
 #endif /* DOG_H */

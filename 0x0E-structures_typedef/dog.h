@@ -15,7 +15,9 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-} dog_t;
+};
+
+typedef struct dog dog_t;
 
 #include "main.h"
 #endif /* DOG_H */

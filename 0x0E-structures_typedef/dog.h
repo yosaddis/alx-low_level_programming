@@ -9,6 +9,7 @@
  *
  * Description: efinition for the structure of the dog
  */
+typedef struct dog dog_t;
 
 struct dog
 {
@@ -16,8 +17,6 @@ struct dog
 	float age;
 	char *owner;
 };
-
-typedef struct dog dog_t
 
 #include "main.h"
 #endif /* DOG_H */

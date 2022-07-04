@@ -3,9 +3,9 @@
 
 int main(void)
 {
-	struct dog my_dog;
+	dog_t *my_dog;
 
-	init_dog(&my_dog, "poppy",3.5,"bob");
-	print_dog(&my_dog);
+	my_dog = new_dog("poppy",3.5,"bob");
+	printf("My name is %s, and I am %.1f :) Woof!",my_dog->name, my_dog->age);
 	return (0);
 }

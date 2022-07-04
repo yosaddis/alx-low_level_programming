@@ -17,5 +17,7 @@ struct dog
 	char *owner;
 };
 
+typedef struct dog dog_t
+
 #include "main.h"
 #endif /* DOG_H */

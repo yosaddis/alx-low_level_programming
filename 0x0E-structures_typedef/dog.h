@@ -1,15 +1,13 @@
 #ifndef DOG_H
 #define DOG_H
 
-#include <stdio.h>
-
 /**
- * struct dog - dog definition
+ * struct dog - og definition
  * @name: name of the dogo
  * @age: age of the dogo
  * @owner: owner of the dogo
  *
- * Description: defintion for structure of dog
+ * Description: efinition for the structure of the dog
  */
 
 struct dog

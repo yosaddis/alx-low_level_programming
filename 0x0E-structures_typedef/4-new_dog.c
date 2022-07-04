@@ -10,11 +10,13 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *d = NULL;
+	dog_t *d = malloc(sizeof(name) + sizeof(age) + sizeof(owner));
 
-	memcpy(&d->name,&name,sizeof(name));
-	d->age = age;
-	memcpy(&d->owner, &owner,sizeof(owner));
-
+	if (d != NULL)
+	{
+		memcpy(&d->name,&name,sizeof(name));
+		d->age = age;
+		memcpy(&d->owner, &owner,sizeof(owner));
+	}
 	return (d);
 }

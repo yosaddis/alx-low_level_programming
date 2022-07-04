@@ -1,5 +1,6 @@
 #include"dog.h"
 #include<string.h>
+#include<stdlib.h>
 
 /**
  * new_dog - initializes new dog from struct
@@ -10,13 +11,15 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *d = malloc(sizeof(name) + sizeof(age) + sizeof(owner));
+	dog_t *d = malloc(sizeof(d));
 
-	if (d != NULL)
+	if (d != NULL || (name) || (owner))
 	{
 		memcpy(&d->name,&name,sizeof(name));
 		d->age = age;
 		memcpy(&d->owner, &owner,sizeof(owner));
+		return (d);
 	}
-	return (d);
+	free(d);
+	return (NULL);
 }

@@ -11,12 +11,9 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *d;
-
-	d = malloc(sizeof(dog_t));
+	dog_t *d = malloc(sizeof(*d));
 	
-	int name_size, owner_size;
-	int i, j;
+	int name_size, owner_size, i, j;
 
 	if (d == NULL || !(name) || !(owner))
 	{

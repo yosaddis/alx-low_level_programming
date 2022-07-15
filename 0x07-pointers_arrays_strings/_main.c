@@ -37,11 +37,19 @@ void main(void)
 
 	printf("-------------------------------------------------------\n");
 	simple_print_buffer(buffer,98);
-	*/
+	
 	int c3[3][3] ={ 
 		{ 0, 1, 5, },
 		{10,11,12},
 		{1000,101,102},
 	};
 	print_diagsums((int *)c3, 3);
+	*/
+	char *s0 = "Bob Dylan";
+	char *s1 = "Robert Allen";
+
+	printf("%s, %s\n",s0, s1);
+	set_string(&s1, s0);
+	printf("%s, %s\n",s0, s1);
+	
 }

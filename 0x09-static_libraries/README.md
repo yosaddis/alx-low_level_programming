@@ -1,0 +1,1 @@
+STATIC Libraries Project
